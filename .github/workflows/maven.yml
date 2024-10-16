@@ -11,8 +11,8 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "sprint1" ]
-  #pull_request:
-    #branches: [ "sprint1" ]
+  pull_request:
+    branches: [ "sprint1" ]
 
 jobs:
   build:
